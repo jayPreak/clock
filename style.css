@@ -12,3 +12,24 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.clock {
+    position: absolute;
+    /* background-color: red; */
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -80%);
+    width: 480px;
+    height: 150PX;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.digit {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    
+
+}
