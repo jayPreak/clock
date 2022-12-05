@@ -11,6 +11,7 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: sans-serif;
 }
 
 .clock {
@@ -29,7 +30,13 @@ body {
 .digit {
     width: 150px;
     height: 150px;
-    background-color: red;
-    
+    background-color:#e500008e;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 85px;
+    color: #a2a2a2;
 
 }
